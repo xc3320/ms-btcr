@@ -1,0 +1,21 @@
+# datasets and the derived feature stack are regenerated, never committed
+data/
+multiscale_output/
+backbone_output/
+suite_output/
+probe_output/
+figures/
+_eq_cache/
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

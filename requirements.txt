@@ -1,0 +1,13 @@
+# core
+numpy>=2.0
+scipy>=1.13
+torch>=2.4
+torchvision>=0.19
+matplotlib>=3.8
+pillow>=10.0
+
+# only for mini_prepare.py (parquet -> ImageFolder)
+pyarrow>=15.0
+
+# only for dc_baseline_probe.py (k-means baseline)
+scikit-learn>=1.4
